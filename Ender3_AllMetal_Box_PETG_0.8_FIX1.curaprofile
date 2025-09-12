@@ -1,0 +1,62 @@
+[general]
+version = 4
+name = Ender3_AllMetal_Box_PETG_0.8_FIX1
+definition = creality_ender3
+
+[metadata]
+type = quality_changes
+quality_type = standard
+material = generic_petg
+setting_version = 24
+
+[values]
+layer_height = 0.32
+line_width = 0.88
+top_bottom_line_width = 0.88
+wall_line_count = 2
+top_bottom_thickness = 1.2
+infill_sparse_density = 15
+infill_pattern = grid
+
+z_seam_type = back
+retraction_enable = True
+retraction_amount = 2.8
+retraction_speed = 30
+retraction_min_travel = 0.6
+retract_at_layer_change = True
+retraction_hop_enabled = True
+retraction_hop = 0.3
+
+outer_wall_wipe_distance = 1.0
+coasting_enable = True
+coasting_volume = 0.48
+retraction_extra_prime_amount = -0.22
+
+combing_mode = not_in_skin
+travel_avoid_other_parts = True
+travel_avoid_supports = True
+outer_inset_first = False
+
+fill_gaps_between_walls = everywhere
+compensate_wall_overlaps = False
+top_bottom_pattern_expansion = 0.44
+
+speed_wall_0 = 23
+speed_wall_x = 26
+speed_infill = 32
+speed_topbottom = 22
+travel_speed = 200
+
+cool_fan_enabled = True
+cool_fan_speed = 45
+cool_fan_full_at_height = 0.4
+cool_min_layer_time = 5
+
+maximum_volumetric_speed = 7
+material_print_temperature = 235
+material_bed_temperature = 80
+
+adhesion_type = none
+initial_layer_height = 0.28
+initial_layer_line_width_factor = 120
+initial_layer_speed = 20
